@@ -18,11 +18,11 @@ public class BunTest {
     @Parameterized.Parameters
     public static Object[][] getBunData() {
         return new Object[][] {
-                {"булка", 100},
-                {"&^%$&%$", 335},
+                {"булка", 100.0F},
+                {"&^%$&%$", 335.000005f},
                 {"BREAD  #765765", 1},
                 {null, -100},
-                {"хлеб", 0}
+                {"black bun", 0}
         };
     }
 
